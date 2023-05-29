@@ -10,10 +10,15 @@ const About = () => {
         </div>
 
         <div className="flex flex-col gap-4 mt-10">
-          <h1 className="text-4xl break-all text-white  capitalize w-max">
+          <h1
+            className="text-4xl break-all text-white  capitalize w-max"
+            data-aos="zoom-out"
+            data-aos-easing="linear"
+            data-aos-duration="1500"
+          >
             about made in america
           </h1>
-          <p>
+          <p data-aos="fade-right" data-aos-easing="linear">
             An image of the Statue of Liberty, proudly holding a toolbox, while
             a bunch of shoddy products made in China lay broken around her.
             Caption: "MIA: Because we believe in quality, not just quantity!"
@@ -21,6 +26,8 @@ const About = () => {
           <p
             className="
           "
+            data-aos="fade-left"
+            data-aos-easing="linear"
           >
             A GIF of Uncle Sam rolling up his sleeves, repairing a broken toy
             labeled "Made in China" with a confident smirk. Caption: "MIA:
@@ -29,7 +36,7 @@ const About = () => {
             America" and a flimsy Chinese knockoff. Caption: "Choose MIA for
             durability and American pride!"
           </p>
-          <p className="">
+          <p className="" data-aos="fade-right" data-aos-easing="linear">
             Remember, this is a fictional meme token created for fun and
             entertainment purposes. Always make informed decisions when it comes
             to investments and consider researching any product thoroughly
