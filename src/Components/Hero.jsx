@@ -6,7 +6,7 @@ const Hero = () => {
     <section className=" w-full pt-[150px] text-white">
       <div className="container flex-col gap-6 font-Asiana flex justify-center items-center">
         <h1 className="text-5xl text-center  md:text-6xl font-Asiana capitalize font-bold">
-          "Made in America" meme token! 🇺🇸💥
+          "Made in America"! 🇺🇸💥
         </h1>
         <p className="text-center max-w-[500px] mx-auto text-2xl">
           Tired of cheap Chinese products flooding the market? Well, say hello
