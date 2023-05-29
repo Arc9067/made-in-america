@@ -3,8 +3,13 @@ import Logo from "../assets/logo.png";
 
 const Token = () => {
   return (
-    <section className="py-[50px] bg-primary">
-      <div className="container grid gap-10 md:grid-cols-2 justify-between items-center">
+    <section className="py-[50px] relative bg-primary">
+      <div className="absolute -top-12  w-full bg-secondary py-3 flex text-center justify-center items-center">
+        <marquee behavior="" direction="" className="text-white text-4xl ">
+          <p className="capitalize">we are made in america!</p>
+        </marquee>
+      </div>
+      <div className="container relative grid gap-10 md:grid-cols-2 justify-between items-center">
         <div className="">
           <h1 className="text-6xl capitalize text-white">tokenomics</h1>
           <div className="flex flex-col gap-8 mt-10">
