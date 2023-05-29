@@ -7,6 +7,7 @@ import Roadmap from "./Components/Swap";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import Map from "./Components/Map";
+import Header from "./Components/Header";
 
 const App = () => {
   useEffect(() => {
@@ -14,6 +15,7 @@ const App = () => {
   }, []);
   return (
     <div className="min-h-screen !break-all overflow-hidden w-full font-Asiana bg-secondary relative">
+      <Header />
       <Hero />
       <About />
       <Token />
