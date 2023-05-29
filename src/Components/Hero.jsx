@@ -32,7 +32,7 @@ const Hero = () => {
         </a>
         <div className="mt-10 flex flex-col gap-6 md:flex-row">
           <a
-            href=""
+            href="https://t.me/MadeInAmericaEth"
             className="bg-secondary capitalize text-3xl rounded-md px-6 py-3"
             data-aos="fade-right"
             data-aos-easing="ease"
@@ -40,7 +40,7 @@ const Hero = () => {
             telegram
           </a>
           <a
-            href=""
+            href="https://twitter.com/MadeInUSAeth"
             className="bg-black capitalize text-3xl rounded-md px-6 py-3"
             data-aos="zoom-right"
             data-aos-easing="linear"
