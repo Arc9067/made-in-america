@@ -19,7 +19,7 @@ export default {
         third: "#FFE083",
       },
       fontFamily: {
-        Asiana: ["Socake", "sans-serif"],
+        Asiana: ["Megalopolis", "sans-serif"],
         Karasu: ["Socake", "sans-serif"],
       },
     },
