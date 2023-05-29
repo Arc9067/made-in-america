@@ -14,14 +14,15 @@ const Roadmap = () => {
           data-aos-easing="linear"
           data-aos-duration="1500"
         >
-          view live chart
+          swap on flooz trade
         </h1>
-        <div className="mt-10">
-          <iframe
-            className="h-[500px] w-full"
-            src="https://dexscreener.com/ethereum/0x11950d141EcB863F01007AdD7D1A342041227b58?embed=1&trades=0&info=0"
-          ></iframe>
-        </div>
+        <iframe
+          width="100%"
+          height="720"
+          frameborder="0"
+          allow="clipboard-read *; clipboard-write *; web-share *; accelerometer *; autoplay *; camera *; gyroscope *; payment *; geolocation *"
+          src="https://flooz.xyz/embed/trade?swapDisabled=false&swapLockToToken=false&onRampDisabled=false&onRampAsDefault=false&onRampDefaultAmount=200&onRampTokenAddress=eth&stakeDisabled=true&network=eth&lightMode=true&primaryColor=%230065b3&backgroundColor=transparent&roundedCorners=10&padding=20"
+        ></iframe>
       </div>
     </div>
   );
