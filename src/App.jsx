@@ -12,7 +12,7 @@ const App = () => {
     Aos.init();
   }, []);
   return (
-    <div className="min-h-screen w-full font-Asiana bg-primary relative">
+    <div className="min-h-screen overflow-hidden w-full font-Asiana bg-primary relative">
       <Hero />
       <About />
       <Token />
