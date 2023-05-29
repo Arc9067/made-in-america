@@ -6,14 +6,14 @@ const Hero = () => {
     <section className=" w-full pt-[150px] text-white">
       <div className="container flex-col gap-6 font-Asiana flex justify-center items-center">
         <h1
-          className="text-5xl text-center  md:text-6xl font-Asiana capitalize font-bold"
+          className="text-5xl tracking-widest leading-relaxed text-center  md:text-6xl font-Asiana capitalize font-bold"
           data-aos="fade-"
           data-aos-easing="linear"
         >
           "Made in America"! 🇺🇸💥
         </h1>
         <p
-          className="text-center max-w-[500px] mx-auto text-2xl"
+          className="text-center tracking-wider leading-relaxed max-w-[500px] mx-auto text-2xl"
           data-aos="fade-right"
           data-aos-easing="linear"
         >

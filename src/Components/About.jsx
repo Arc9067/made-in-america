@@ -1,12 +1,12 @@
 import React from "react";
-import logo from "../assets/made.png";
+import logo from "../assets/logo2.png";
 
 const About = () => {
   return (
     <section className="py-[50px] w-full text-white">
       <div className="container grid md:grid-cols-2 items-center justify-between gap-14">
         <div className="order-2 md:order-1">
-          <img src={logo} alt="" />
+          <img src={logo} alt="" className="w-full" />
         </div>
 
         <div className="flex flex-col gap-4 mt-10">
@@ -18,16 +18,19 @@ const About = () => {
           >
             about made in america
           </h1>
-          <p data-aos="fade-right" data-aos-easing="linear">
+          <p
+            data-aos="fade-right"
+            data-aos-easing="linear"
+            className="leading-relaxed mt-5 tracking-wider"
+          >
             An image of the Statue of Liberty, proudly holding a toolbox, while
             a bunch of shoddy products made in China lay broken around her.
             Caption: "MIA: Because we believe in quality, not just quantity!"
           </p>
           <p
-            className="
-          "
             data-aos="fade-left"
             data-aos-easing="linear"
+            className="leading-relaxed mt-5 tracking-wider"
           >
             A GIF of Uncle Sam rolling up his sleeves, repairing a broken toy
             labeled "Made in China" with a confident smirk. Caption: "MIA:
@@ -36,7 +39,11 @@ const About = () => {
             America" and a flimsy Chinese knockoff. Caption: "Choose MIA for
             durability and American pride!"
           </p>
-          <p className="" data-aos="fade-right" data-aos-easing="linear">
+          <p
+            className="leading-relaxed mt-5 tracking-wider"
+            data-aos="fade-right"
+            data-aos-easing="linear"
+          >
             Remember, this is a fictional meme token created for fun and
             entertainment purposes. Always make informed decisions when it comes
             to investments and consider researching any product thoroughly

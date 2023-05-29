@@ -20,22 +20,34 @@ const Token = () => {
             tokenomics
           </h1>
           <div className="flex flex-col gap-8 mt-10">
-            <div className="" data-aos="zoom-out" data-aos-easing="linear">
+            <div
+              className="flex flex-col gaps-4"
+              data-aos="zoom-out"
+              data-aos-easing="linear"
+            >
               <h2 className="capitalize text-3xl text-white">total Supply:</h2>
-              <p className=" text-white/80 text-2xl ">
+              <p className="mt-5 text-white/80 text-2xl ">
                 147.71 trillion (Same as net worth of America)
               </p>
             </div>
-            <div className="" data-aos="zoom-out" data-aos-easing="linear">
+            <div
+              className="flex flex-col gaps-4"
+              data-aos="zoom-out"
+              data-aos-easing="linear"
+            >
               <h2 className="capitalize text-3xl text-white">tax:</h2>
-              <p className=" text-white/80 text-2xl ">
+              <p className="mt-5 text-white/80 text-2xl ">
                 0% tax on buys and sells
               </p>
             </div>
-            <div className="" data-aos="zoom-out" data-aos-easing="linear">
+            <div
+              className="flex flex-col gaps-4"
+              data-aos="zoom-out"
+              data-aos-easing="linear"
+            >
               <h2 className="capitalize text-3xl text-white">No team wallet</h2>
             </div>
-            <div className="">
+            <div className="flex flex-col gaps-4">
               <h2 className="capitalize text-3xl text-white">
                 Contract renounced
               </h2>
