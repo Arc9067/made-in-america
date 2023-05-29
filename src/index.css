@@ -1,0 +1,6 @@
+@import url("https://fonts.cdnfonts.com/css/asiana");
+@import url("https://fonts.cdnfonts.com/css/karasu");
+@import url("https://fonts.cdnfonts.com/css/socake");
+@tailwind base;
+@tailwind utilities;
+@tailwind components;
