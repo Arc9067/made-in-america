@@ -6,7 +6,7 @@ const Token = () => {
     <section className="py-[50px] relative bg-primary">
       <div className="absolute -top-12  w-full bg-secondary py-3 flex text-center justify-center items-center">
         <marquee behavior="" direction="" className="text-white text-4xl ">
-          <p className="capitalize">we are made in america!</p>
+          <p className="capitalize">we are proudly made in america!</p>
         </marquee>
       </div>
       <div className="container relative grid gap-10 md:grid-cols-2 justify-between items-center">
