@@ -25,27 +25,27 @@ const Hero = () => {
         <div className="mt-10 flex flex-col gap-6 md:flex-row">
           <a
             href=""
-            className="bg-secondary capitalize text-2xl rounded-md px-6 py-3"
+            className="bg-secondary capitalize text-3xl rounded-md px-6 py-3"
           >
             telegram
           </a>
           <a
             href=""
-            className="bg-black capitalize text-2xl rounded-md px-6 py-3"
+            className="bg-black capitalize text-3xl rounded-md px-6 py-3"
           >
             twitter
           </a>
           <a
             href=""
-            className="bg-secondary capitalize text-2xl rounded-md px-6 py-3"
+            className="bg-secondary capitalize text-3xl rounded-md px-6 py-3"
           >
             dextool
           </a>
           <a
             href=""
-            className="bg-black capitalize text-2xl rounded-md px-6 py-3"
+            className="bg-black capitalize text-3xl rounded-md px-6 py-3"
           >
-            uniswap
+            medium
           </a>
         </div>
 
