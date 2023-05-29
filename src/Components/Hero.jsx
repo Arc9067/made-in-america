@@ -20,8 +20,6 @@ const Hero = () => {
         >
           buy made in america
         </a>
-        <h1 className="text-4xl capitalize">contract</h1>
-        <p>00000000000000000000000000000</p>
         <div className="mt-10 flex flex-col gap-6 md:flex-row">
           <a
             href=""

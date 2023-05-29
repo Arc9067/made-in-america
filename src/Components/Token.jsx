@@ -1,27 +1,38 @@
 import React from "react";
+import Logo from "../assets/logo.png";
 
 const Token = () => {
   return (
-    <div className="py-[50px] w-full bg-black text-white">
-      <div className="container gap-y-7 gap-x-4 flex flex-wrap justify-center md:justify-between items-center">
-        <div className="h-40 w-40 bg-primary capitalize text-white rounded-lg flex justify-center flex-col gap-3 text-center">
-          <h1 className="text-4xl">2%</h1>
-          <p className="text-2xl capitalize">tax</p>
+    <section className="py-[50px] bg-primary">
+      <div className="container grid gap-10 md:grid-cols-2 justify-between items-center">
+        <div className="">
+          <h1 className="text-6xl capitalize text-white">tokenomics</h1>
+          <div className="flex flex-col gap-8 mt-10">
+            <div className="">
+              <h2 className="capitalize text-3xl text-white">total Supply:</h2>
+              <p className=" text-white/80 text-2xl ">
+                147.71 trillion (Same as net worth of America)
+              </p>
+            </div>
+            <div className="">
+              <h2 className="capitalize text-3xl text-white">tax:</h2>
+              <p className=" text-white/80 text-2xl ">
+                0% tax on buys and sells
+              </p>
+            </div>
+            <div className="">
+              <h2 className="capitalize text-3xl text-white">No team wallet</h2>
+            </div>
+            <div className="">
+              <h2 className="capitalize text-3xl text-white">
+                Contract renounced
+              </h2>
+            </div>
+          </div>
         </div>
-        <div className="h-40 w-40 bg-primary capitalize text-white rounded-lg flex justify-center flex-col gap-3 text-center">
-          <h1 className="text-4xl">3k$</h1>
-          <p className="text-2xl capitalize">starting mc</p>
-        </div>
-        <div className="h-40 w-40 bg-primary capitalize text-white rounded-lg flex justify-center flex-col gap-3 text-center">
-          <h1 className="text-4xl">1Million</h1>
-          <p className="text-2xl capitalize">supply</p>
-        </div>
-        <div className="h-40 w-44 bg-primary capitalize text-white rounded-lg flex justify-center flex-col gap-3 text-center">
-          <h1 className="text-4xl">renounced </h1>
-          <p className="text-2xl capitalize">ownership</p>
-        </div>
+        <img src={Logo} alt="" />
       </div>
-    </div>
+    </section>
   );
 };
 
